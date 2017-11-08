@@ -1,0 +1,28 @@
+#machine {
+	float:left;
+	width:375px;
+	/*border:3px outset gray;*/
+}
+div#power > img {
+	float:left;
+	width:25%;
+}
+.btn {
+	float:left;
+	width:25%;
+	height:95px;
+	border-radius: 100%;
+	/*clear:right;*/
+}
+#conveyor_belt{  
+	 clear:both;
+}
+#vainilla {
+	background-color: yellow;
+}
+#chocolate{
+	background-color: brown;
+}
+#fresa{
+	background-color: pink;
+}

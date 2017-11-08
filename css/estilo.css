@@ -1,0 +1,12 @@
+#machine {
+	float:left;
+	width:60%;
+	border:3px outset gray;
+}
+div#power > img {
+	float:left;
+}
+.btn {
+	float:left;
+	clear:right;
+}

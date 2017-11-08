@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Máquina de helado</title>
+    <meta charset="utf-8">
+    <style>
+    li { line-height: 1.6em; margin-bottom: 20px;}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Máquina de helado</h1>
+      <p>Has de crear una máquina de helado, sigue los pados para hacer los que puedas en el tiempo que tenemos:</p>
+      <ol>
+        <li>En <code>index.html</code>, tienes un botón de encendido y 3 botones de sabores en la máquina. Cuando el usuario presiona el botón de encendido, el evento <code>'click'</code> se lanzara para ese elemento. Hemos empezado a escribir un event listener. Encuentra la función anónima de callback para el event listener.</li>
+        <li>Dentro del callback, enlaza el evento click para cada botón de sabor de la máquina.</li>
+        <li>Después, pon <code>isOn</code> a <code>true</code> dentro del mismo callback.</li>
+        <li>Cada botón de la máquina debe hacer algo. Usa las imagenes incluidas <code>img/chocolate.jpg</code>, <code>img/vanilla.jpg</code>, and <code>img/swirl.jpg</code> para crear un tag <code>&lt;img&gt;</code>, añade un atributo <code>src</code>, y adjuntalo al <code>&lt;div&gt;</code> de la cinta trasnsportadora del lado de la máquina.</li>
+        <li>Abre <code>index.html</code> en el navegador y asegurate de que puedes poner la máquina en marcha con el botón de encendido. Asegúrate de que las imágenes se añaden a la cinta trasnportadora.</li>
+        <li>Ahora, también queremos poder apagar la máquina. Añade la lógica para que los eventos se enlacen cuando la máquina se ponga en marcha y se <em>desenlacen</em> cuando la máquina se apague. Además asegúrate de que <code>isOn</code> cambia para reflejar de forma precisa el estado de la máquina.</li>
+        <li><strong>BONUS: </strong>Límpia el código de forma que con una sola función podamos crear cualquier sabor, dependiendo del botón presionado.</li>
+      </ol>
+	<p>Asegúrate de usar las "browser developer tools" para debugar más facilmente mientras trabajas en este ejercicio. Comprueba errores usando <code>console.log()</code> para ver hasta donde llega el código, lo que hace y que valores tienen las variabñes durante la ejecución.</p>
+  </body>
+</html>
+
